@@ -17,10 +17,8 @@ function App() {
         </a>
       </div>
       <h1>
-        <span className="font-serif underline decoration-emerald-500">
-          Vite
-        </span>{" "}
-        + <span className="underline decoration-amber-500">React</span>
+        <span className="font-serif underline decoration-rose-500">Vite</span> +{" "}
+        <span className="underline decoration-indigo-500">React</span>
       </h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
